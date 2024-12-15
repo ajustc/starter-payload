@@ -15,17 +15,24 @@
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
   },
   "dependencies": {
-    "@payloadcms/next": "latest",
+    "@payloadcms/db-postgres": "^3.7.0",
+    "@payloadcms/next": "^3.7.0",
     "@payloadcms/payload-cloud": "latest",
-    "@payloadcms/richtext-lexical": "latest",
+    "@payloadcms/plugin-form-builder": "^3.7.0",
+    "@payloadcms/plugin-nested-docs": "^3.7.0",
+    "@payloadcms/plugin-redirects": "^3.7.0",
+    "@payloadcms/plugin-search": "^3.7.0",
+    "@payloadcms/plugin-sentry": "^3.7.0",
+    "@payloadcms/plugin-seo": "^3.7.0",
+    "@payloadcms/richtext-lexical": "^3.7.0",
+    "@sentry/nextjs": "^8",
     "cross-env": "^7.0.3",
-    "graphql": "^16.8.1",
+    "graphql": "^16.9.0",
     "next": "15.1.0",
-    "payload": "latest",
+    "payload": "^3.7.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "sharp": "0.32.6",
-    "@payloadcms/db-postgres": "latest"
+    "sharp": "0.32.6"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
@@ -35,6 +42,7 @@
     "eslint": "^9.16.0",
     "eslint-config-next": "15.1.0",
     "prettier": "^3.4.2",
+    "tailwindcss": "^3.4.16",
     "typescript": "5.7.2"
   },
   "engines": {
